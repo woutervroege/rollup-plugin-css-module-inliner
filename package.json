@@ -1,0 +1,29 @@
+{
+  "name": "rollup-plugin-css-module-inliner",
+  "version": "0.1.0",
+  "description": "Rollup plugin that replaces css js modules with inline `<style>` tags",
+  "main": "src/rollup-plugin-css-module-inliner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woutervroege/rollup-plugin-css-module-inliner.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "css",
+    "module",
+    "inline"
+  ],
+  "author": "Wouter Vroege",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woutervroege/rollup-plugin-css-module-inliner/issues"
+  },
+  "homepage": "https://github.com/woutervroege/rollup-plugin-css-module-inliner#readme",
+  "dependencies": {
+    "magic-string": "^0.25.6"
+  }
+}
