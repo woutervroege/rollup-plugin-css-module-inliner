@@ -1,4 +1,4 @@
-import { main as inlineCSS } from '../src/rollup-plugin-css-module-inliner';
+const inlineCSS = require('../src/rollup-plugin-css-module-inliner');
 
 export default {
   input: 'src/app.js',

@@ -2,7 +2,7 @@ const MagicString = require('magic-string');
 const fs = require('fs');
 const path = require('path');
 
-export const main = () => {
+module.exports = inlineCSS = () => {
   return {
     name: 'inline-stylesheets',
     transform (code, filePath) {
